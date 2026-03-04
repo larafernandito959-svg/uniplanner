@@ -1,20 +1,10 @@
 import "./globals.css"
 import type { Metadata } from "next"
-import { useEffect } from "react"
+import RegisterSW from "@/components/RegisterSW"
 
 export const metadata: Metadata = {
   title: "UniPlanner",
-  description: "Organiza tu vida académica"
-}
-
-function RegisterSW() {
-  useEffect(() => {
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js")
-    }
-  }, [])
-
-  return null
+  description: "Organiza tu vida académica",
 }
 
 export default function RootLayout({
