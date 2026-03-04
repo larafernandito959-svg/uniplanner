@@ -1,0 +1,19 @@
+{
+  "name": "UniPlanner Pro",
+  "short_name": "UniPlanner",
+  "description": "Tu planificador academico inteligente",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1d2e",
+  "theme_color": "#1a1d2e",
+  "orientation": "portrait-primary",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
